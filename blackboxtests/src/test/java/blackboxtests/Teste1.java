@@ -53,6 +53,7 @@ public class Teste1 {
 		// submit the form. WebDriver will find the form for us from the element
 		element.submit();
 		driver.close();*/
+		
 		driver.get("https://www.idealista.pt/arrendar-casas/lisboa/lumiar/");
 		List<WebElement> Apartamentos = driver.findElements(By.className("item-price h2-simulated"));
 		try {
