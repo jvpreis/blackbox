@@ -62,6 +62,7 @@ public class Teste1 {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		// check the title of the page
 		System.out.println("Page title is: " + driver.getTitle());
 		 for(WebElement apartamento:Apartamentos)  
