@@ -57,7 +57,7 @@ public class Teste1 {
 		driver.get("https://www.idealista.pt/arrendar-casas/lisboa/lumiar/");
 		List<WebElement> Apartamentos = driver.findElements(By.className("item-price h2-simulated"));
 		try {
-			Thread.sleep(2000);
+			Thread.sleep(3000);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
